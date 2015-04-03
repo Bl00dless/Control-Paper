@@ -44,7 +44,9 @@ body {
     height: 60px;
     width: 100%;
 }
-
+.header > .left{
+    float: left;
+}
 .header ul li{
     display: inline-block;
     margin: 21px 15px 21px;
@@ -52,7 +54,7 @@ body {
     font-size: 11pt;
 }
 
-.header > ul > li:first-child {
+.header > .left > li:first-child {
     float: left;
     background: #56ccc8;
     width: 60px;
@@ -63,11 +65,11 @@ body {
 .header > ul > li:first-child >a>img {
     padding: 21px 19px 20px 18px;
 }
-.header > ul > li:first-child:hover{
+.header > .left > li:first-child:hover{
     background: #475055;
 }
 
-.header > ul > li:first-child+li{
+.header > .left > li:first-child+li{
     margin: 21px 15px 20px 50px;
 }
 
@@ -78,4 +80,8 @@ body {
 
 .header > ul > li >a:hover {
     color: #56ccc8;
+}
+
+.header ul:first-child+ul {
+    float: right;
 }
