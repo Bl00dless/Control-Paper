@@ -44,16 +44,22 @@ body {
     height: 60px;
     width: 100%;
 }
+
+/*ліва частина менюшки*/
+
 .header > .left{
     float: left;
 }
-.header ul li{
+.header .left li{
     display: inline-block;
     margin: 21px 15px 21px;
     font-family: 'Roboto', sans-serif;
     font-size: 11pt;
 }
-
+.left > li:first-child >a{
+    float: left;
+    line-height: 0px;
+}
 .header > .left > li:first-child {
     float: left;
     background: #56ccc8;
@@ -62,11 +68,12 @@ body {
     margin: 0;
 
 }
-.header > ul > li:first-child >a>img {
+.header > .left > li:first-child >img {
     padding: 21px 19px 20px 18px;
 }
 .header > .left > li:first-child:hover{
     background: #475055;
+    cursor: pointer;
 }
 
 .header > .left > li:first-child+li{
@@ -82,6 +89,70 @@ body {
     color: #56ccc8;
 }
 
-.header ul:first-child+ul {
+
+
+/*права частина менюшки*/
+
+.right{
+    height: 60px;
     float: right;
+}
+.right  li{
+    padding: 18px 7px 19px;
+    display: inline-block;
+}
+.right li:first-child{
+    border-right: 1px solid #dde2e4;
+    padding: 18px 25px 19px;
+}
+.right li:last-child{
+    border-left: 1px solid #dde2e4;
+    padding: 18px 25px 19px;
+}
+
+
+/*випадаюче меню*/
+.menu{
+    display: inline-block;
+    height: 670px;
+    width: 100%;
+    margin: 14px 0;
+    float: left;
+    /*display: none;*//* для зручності, потім відкомментити !!!!!  */
+}
+
+.menu ul:first-child li{
+    list-style: none;
+    padding: 15px 81px 17px 15px;
+    /*height: 60px;*/
+    border-bottom: 1px #e3e3e3 solid;
+}
+.menu ul:first-child li a img{
+    margin: 0 20px 0 0;
+}
+.menu ul:first-child li a{
+    font-family: 'Roboto', regular;
+    color: #475055;
+}
+.menu ul:first-child{
+    background: white;
+    width: 225px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+
+.menu ul:first-child li:first-child+li+li+li+li+li+li+li
+{
+    background: #c5cdd1;
+    border: none;
+    padding: 0 0 0 1px;
+}
+
+/*підменю*/
+
+.submenu {
+    width: 240px;
+    float: left;
+    list-style: none;
 }
