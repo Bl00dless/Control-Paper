@@ -523,28 +523,31 @@ body {
     background: #787878;
     float:left;
 }
-.video div{
+.videoo{
+    display: none;
+}
+.videoo div{
     height: 300px;
     width: 110px;
     background: #1f3045;
     float:left;
 }
-.video div a:first-child img{
+.videoo div a:first-child img{
     display:block;
     /*34x30*/
     margin: 0 -2px;
 }
-.video div a:first-child+a img{
+.videoo div a:first-child+a img{
     display:block;
     /*34x30*/
     margin: 0 3px;
 }
-.video div a:first-child+a+a img{
+.videoo div a:first-child+a+a img{
     display:block;
     /*34x30*/
     margin: 0 6px;
 }
-.video div a{
+.videoo div a{
     float: left;
     text-decoration: none;
     font-family: 'Roboto', regular;
@@ -552,20 +555,20 @@ body {
     font-size: 14pt;
     color: #ffffff;
 }
-.video div a:hover {
+.videoo div a:hover {
     color: #ea6060;
 }
-.video div a:first-child{
+.videoo div a:first-child{
     margin: 35px 0 0 40px;
 }
-.video div a:first-child+a{
+.videoo div a:first-child+a{
     margin: 35px 0 0 35px;
 }
-.video div a:first-child+a+a{
+.videoo div a:first-child+a+a{
     margin: 35px 0 0 32px;
 }
 
-.video>a{
+.videoo>a{
     float: left;
     margin: 116px 221px;
 }
@@ -608,33 +611,32 @@ body {
 }
 
 /*-------------------------*/
-.middle>div:last-child{
-    width: 616px;
+.middle>div:last-child div{
+    width: 316px;
     height: 300px;
     float:left;
-
     background: #ffffff;
     margin: 14px 0 0 0;
 }
-.middle>div:last-child>p{
+.middle>div:last-child div>p{
     display: block;
     float: left;
 }
-.middle>div:last-child>p:first-child {
+.middle>div:last-child div>p:first-child {
     height: 40px;
     width: 40px;
     background: #4fc6f8;
     margin: 36px 0 0 0;
     float: left;
 }
-.middle>div:last-child>p:first-child img{
+.middle>div:last-child div>p:first-child img{
     /*21x15*/
     float: left;
     margin: 13px 10px 12px 9px;
 }
 
 
-.middle div:last-child>p:first-child+p {
+.middle div:last-child div>p:first-child+p {
     font-family: 'Roboto', regular;
     font-weight: 400;
     font-size: 18pt;
@@ -642,24 +644,25 @@ body {
     margin: 40px 0 0 25px;
 }
 
-.middle>div:last-child>p:first-child+p+p {
+.middle>div:last-child div>p:first-child+p+p {
     font-family: 'Roboto', regular;
     font-weight: 100;
     font-size: 10pt;
     color: #475055;
     margin: 15px 0 0 65px;
 }
-.middle>div:last-child>p:first-child+p+p+p {
+.middle>div:last-child div>p:first-child+p+p+p {
     font-family: 'Roboto', regular;
     font-weight: 300;
     font-size: 10pt;
     color: #475055;
     margin: 15px 20px 20px 65px;
     height: 106px;
-    width: 100px;
+    width: 231px;
 }
-.middle>img{
+.middle>div:last-child>img{
     float:right;
+    margin: 14px 0 0 0;
 }
 
 

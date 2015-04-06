@@ -18,6 +18,16 @@ $(document).ready(function() {
     );
 
 
+    $('.video', this).hover(function()
+        {
+            $(".videoo", this).slideDown(100);
+        },
+        function()
+        {
+            $(".videoo", this).slideUp(100);
+        }
+    );
+
     //slider
     $('#slider').rhinoslider({
         controlsMousewheel: false,
