@@ -2,17 +2,36 @@
  * Created by r2d2 on 03.04.15.
  */
 $(document).ready(function() {
-    var menuflag =0;
+    //menu
     $('.menubutt').click(function() {
-        if (menuflag == 0) {
-            $('.menu').slideDown();
-            menuflag = 1;
-        }
-        else
+        $('.menu').slideToggle();
+    });
+    //submenu
+    $(".menu>ul>li").hover(function()
         {
-            $('.menu').slideUp();
-            menuflag=0;
+            $(".submenu", this).slideDown(100);
+        },
+        function()
+        {
+            $(".submenu", this).slideUp(100);
         }
+    );
 
-    })
+
+    //slider
+    $('#slider').rhinoslider({
+        controlsMousewheel: false,
+        controlsPlayPause: false,
+        showBullets: 'always',
+        changeBullets: 'before',
+        showControls: 'always'
+    });
+
+
+    //dotdotdot
+    $(document).ready(function() {
+        $(".article").dotdotdot({
+            after: "a.readmore"
+        });
+    });
 });
