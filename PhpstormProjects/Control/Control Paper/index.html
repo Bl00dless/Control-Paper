@@ -5,6 +5,12 @@
     <link rel="stylesheet" href="css/style.css"/>
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/script.js"></script>
+    <!--datepicker-->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
     <!--dotdotdot-->
     <script src="js/jquery.dotdotdot.js"></script>
     <!--Slider-->
@@ -14,6 +20,7 @@
     <link rel="stylesheet" href="css/rhinoslider-1.05.css"/>
     <!--Font-->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,100,300italic,300,700' rel='stylesheet' type='text/css'>
+
     <title></title>
 </head>
 <body>
@@ -255,8 +262,8 @@
                     <li>Join the Newsletter</li>
                     <li>Sign up for our personalized daily newsletter</li>
                     <div class="input-box">
-                        <input type="text" value="Enter email adress"/>
-                        <input type="submit" value="SIGN UP"/>
+                        <input type="text" class="validate-email" value="Enter email adress"/>
+                        <input type="submit" id="spam-sign" value="SIGN UP"/>
                     </div>
                 </ul>
             </div>
@@ -338,6 +345,102 @@
             </div>
         </div>
         <div class="bottom">
+            <div>
+                <div>
+                    <p>Alex White</p><p>@alexwhite</p><img src="img/widget/t_follow.png" alt=""/>
+                </div>
+                <div>
+                    <p>Singolo is free PSD template <br/>of flat, single page website <br/> created by
+                    <span>@PsdChat #freebie<br/>#psd http://bit.ly/19XM8Lj</span><p>2 hours ago</p>
+                </div>
+                <div>
+                    <p>Saturday Career Workshops <br/>are back at ADC! See what high <br/>School students created this
+                        <br/>week: <span>http://bit.ly/Xx1EsL</span></p><p>6 hours ago</p>
+                </div>
+                <div id="page2">
+                    <ul id="slider2">
+                        <li><img src="img/slider/1slide.jpg" alt="" /></li>
+                        <li><img src="img/slider/2slide.jpg" alt="" /></li>
+                        <li><img src="img/slider/3slide.jpg" alt="" /></li>
+                    </ul>
+                </div>
+                <div>
+                        <p>Ask a Question</p>
+                    <input type="text" class="required-entry" value="Login"/>
+                    <input type="text" class="validate-email" value="Enter email adress"/>
+                    <textarea name="" class="required-entry" id="" cols="30" rows="10">Your question...</textarea>
+                    <input type="submit"  id="question-send" value="SUBMIT"/>
+                </div>
+            </div>
+            <div>
+                <div id="datepicker"></div>
+            </div>
+            <div>
+                <p>VIEW <br/>MORE <br/>STORIES</p><img src="img/arrow.png" alt=""/>
+            </div>
+            <div>
+                <img src="" alt=""/>
+                <div class="botart">
+                    <p><img src="img/article/article.png" alt=""/><span>Deutsch Dishes</span></p>
+                    <p class="article">Німецька кухня вирізняється великою різноманітністю страв зі свинини,
+                        телятини, яловичини, птиці, дичини, риби. Популярні різноманітні
+                        овочі, особливо капуста, картопля, найчастіше у відвареному вигляді.
+                        Широко розповсюджені кисломолочні продукти, бутерброди, страви з яєць.
+                        Ковбаски з кислою капустою та картоплею. імці надають перевагу
+                        негострій їжі, прянощі й приправи закладаються в страви дуже помірно,
+                        в цілому німецька національна кухня проста, багата, відрізняється
+                        великою розмаїтістю страв з овочей, м’яса, риби, борошна. Характерно
+                        для німців використання на сніданок і вечерю всіляких бутербродів
+                        (дослівно хліб з маслом) із різноманітними олійно-масляними масами,
+                        овочами, ковбасою, рибою. Закусочний стіл багатий стравами з овочів,
+                        шинки, ковбаси і сосисок, сардин і особливо з оселедця з
+                        різноманітними соусами (рольмопс), салатами з м'яса і різної риби,
+                        заправленими майонезом. Якщо вірити статистиці, то найулюбленіша
+                        їжа німців - сосиски. Причому, у кожному регіоні - свої сорти.
+                        <a href="javascript:void(0)" class="readmore">Read more</a></p>
+                    <p> <span><img src="img/article/share.png" alt=""/>569 Shares</span>
+                        <span><img src="img/article/views.png" alt=""/>3,152 Views</span>
+                        <span><img src="img/article/comments.png" alt=""/>21 Comments</span></p>
+                </div>
+                <div class="quote">
+                    <p><img src="img/quote.png" alt=""/><span>"You know nothing, John Snow"</span></p>
+                </div>
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">About</a></li>
+                        <li><a href="#tabs-2">Team</a></li>
+                        <li><a href="#tabs-3">Privacy</a></li>
+                        <li><a href="#tabs-4">Advertise</a></li>
+                        <li><a href="#tabs-5">Contact</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        1
+                    </div>
+                    <div id="tabs-2">
+                        <div>
+                            <p>2 <br/>
+                                2</p>
+                            <p>2</p>
+                            <span>2</span>
+                        </div>
+                        <div>
+                            <p>2 <br/>
+                                2</p>
+                            <p>2</p>
+                            <span>2</span>
+                        </div>
+                    </div>
+                    <div id="tabs-3">
+                        3
+                    </div>
+                    <div id="tabs-4">
+                        4
+                    </div>
+                    <div id="tabs-5">
+                        5
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
