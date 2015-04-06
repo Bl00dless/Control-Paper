@@ -58,7 +58,7 @@ body {
 }
 .left > li:first-child >a{
     float: left;
-    line-height: 0px;
+    line-height: 0;
 }
 .header > .left > li:first-child {
     float: left;
@@ -131,7 +131,7 @@ body {
     margin: 0 20px 0 0;
 }
 .menu>ul:first-child>li>a{
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     color: #475055;
 }
 .menu>ul:first-child{
@@ -173,7 +173,7 @@ body {
 }
 
 .submenu>li>a{
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: 300;
     padding: 6px 0;
@@ -195,7 +195,7 @@ body {
 
 .submenu li a:first-child{
     color: #56ccc8;
-    font-family: 'Roboto', light;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     /*margin: 15px 10px;*/
 
@@ -227,7 +227,7 @@ body {
 
 }
 .followus ul:first-child li a{
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #94989a;
     float: left;
@@ -262,7 +262,7 @@ body {
 .followus ul:first-child+ul li {
     display: block;
     padding: 20px 20px;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 600;
     color: white;
@@ -271,21 +271,21 @@ body {
 .followus ul:first-child+ul+ul li {
     display: block;
     padding: 20px 20px;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 600;
     color: white;
 }
 .followus ul:first-child+ul li a{
     margin: 0 0 0 45px;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 300;
     color: white;
 }
 .followus ul:first-child+ul+ul li a{
     margin: 0 0 0 34px;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 300;
     color: white;
@@ -316,7 +316,7 @@ body {
 }
 
 .followus ul:first-child+ul+ul+ul li:first-child{
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 400;
     font-size: 18pt;
@@ -326,7 +326,7 @@ body {
 }
 
 .followus ul:first-child+ul+ul+ul li:first-child+li{
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 300;
     font-size: 12pt;
@@ -359,7 +359,7 @@ body {
 }
 
 .followus ul:last-child li:first-child{
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 400;
     font-size: 18pt;
@@ -368,7 +368,7 @@ body {
     float: left;
 }
 .followus ul:last-child li:first-child+li{
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 10pt;
@@ -388,7 +388,7 @@ body {
     padding: 0 10px;
     height: 27px;
     width: 300px;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 18pt;
@@ -400,7 +400,7 @@ body {
 .followus .input-box input:first-child+input{
     height: 30px;
     width: 65px;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 11pt;
@@ -493,7 +493,7 @@ body {
 
 
 .middle div:first-child>p:first-child+p {
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18pt;
     color: #475055;
@@ -501,14 +501,14 @@ body {
 }
 
 .middle>div:first-child>p:first-child+p+p {
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 10pt;
     color: #475055;
     margin: 15px 0 0 65px;
 }
 .middle>div:first-child>p:first-child+p+p+p {
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 10pt;
     color: #475055;
@@ -550,7 +550,7 @@ body {
 .videoo div a{
     float: left;
     text-decoration: none;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14pt;
     color: #ffffff;
@@ -585,7 +585,7 @@ body {
 }
 .middle>div:first-child+div+div a:first-child{
     text-decoration: none;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14pt;
     color: #ffffff;
@@ -598,7 +598,7 @@ body {
 }
 .middle>div:first-child+div+div a:first-child+a{
     text-decoration: none;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14pt;
     color: #ffffff;
@@ -637,7 +637,7 @@ body {
 
 
 .middle div:last-child div>p:first-child+p {
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18pt;
     color: #475055;
@@ -645,14 +645,14 @@ body {
 }
 
 .middle>div:last-child div>p:first-child+p+p {
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 10pt;
     color: #475055;
     margin: 15px 0 0 65px;
 }
 .middle>div:last-child div>p:first-child+p+p+p {
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 10pt;
     color: #475055;
@@ -688,7 +688,7 @@ body {
 
 /*readmore style*/
 .readmore {
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-decoration: none;
     color: #ea6060;
